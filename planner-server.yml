@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: git-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AlexandrMotorin/planner-configs.git
+          clone-on-start: true
+          basedir: file://d:/configs/planner-configs
+          username: AlexandrMotorin
+          password: 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
+          default-label: main
