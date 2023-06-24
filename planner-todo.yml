@@ -2,6 +2,12 @@ spring:
   application:
     name: planner-todo
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/planner_tasks
+    username: root
+    password: root
+
+
 eureka:
   client:
     service-url:
