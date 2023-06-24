@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: planner-todo
+
+eureka:
+  client:
+    service-url:
+      defautl-zone: http://localhost:8761/eureka
+
+
