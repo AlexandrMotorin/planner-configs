@@ -26,6 +26,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: *
         
 check: some string
