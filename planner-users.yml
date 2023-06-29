@@ -1,6 +1,6 @@
 spring:
   application:
-    name: planner-todo
+    name: planner-users
 
   datasource:
     url: jdbc:postgresql://localhost:5432/planner_users
